@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    height: 7vh;
+    border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.myName {
+    width: 30%;
+    border-right: 1px solid black;
+    text-align: right;
+}
+
+.titleName {
+    line-height: 7vh;
+    vertical-align: middle;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.menu {
+    padding: 1%;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    margin-left: 25%;
+}
+
+.menu button {
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+}
+
+.menu button:hover {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #0077be;
+    border: none;
+}
