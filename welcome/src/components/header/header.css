@@ -8,7 +8,10 @@
     top: 0;
     right: 0;
     overflow: hidden;
+    background-color:black;
 }
+
+@keyframes blink { 50% { color:#fff ; }  }
 
 .myName {
     width: 30%;
@@ -21,7 +24,11 @@
     vertical-align: middle;
     margin-right: 20%;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 50px;
+    color: #4169e1;
+    font-family: "VogueLight";
+    animation: blink 10s;
+    animation-iteration-count: 20000;
 }
 
 .menu {
@@ -35,13 +42,17 @@
 .menu button {
     margin-right: 10px;
     font-weight: bold;
+    font-size:20px;
     background-color: transparent;
     border: none;
+    color: white;
+    font-family: "VogueLight";
 }
 
 .menu button:hover {
+    font-family: "VogueLight";
     margin-right: 10px;
     font-weight: bold;
-    color: #0077be;
+    color: #4169e1;
     border: none;
 }

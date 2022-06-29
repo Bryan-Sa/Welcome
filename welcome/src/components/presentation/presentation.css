@@ -1,69 +1,24 @@
 .bonjourContainer {
-    width: 100%;
-    margin-top: 10%;
+    width: 98%;
+    margin-top: 6%;
     text-align: center;
-    
-}
-
-.bonjour {
-    font-size: 90px;
-    font-weight: bold;
-    color: #0077be;
-}
-
-.descriptionContainer {
-    width:40%;
-    margin: auto;
-    text-align: center;
-    margin-top:2%;
-
-}
-
-.description {
-    font-size:20px;
-}
-.hide {
-    display:none;
-}
-.show {
-    display:block;
-}
-
-.blackroom {
-    width:100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    text-align: center;
-    background-color: black;
-}
-.blackroomfirstDescription {
-    position: absolute;
-    top:40%;
-    left: 40%;
-    font-size: 25px;
-    color:white;
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
     -moz-animation: fadeIn 5s;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
+    padding:10px;
+    border-bottom: 1px solid #E1D9D1;
+    border-top: 1px solid #E1D9D1;
+  }
 
-
+.bonjour {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: "VogueLight";
 }
-.blackroomsecondDescription {
-    position: absolute;
-    top:50%;
-    left: 43%;
-    font-size: 28px;
-    color:white;
-    animation: fadeIn 20s;
-    -webkit-animation: fadeIn 20s;
-    -moz-animation: fadeIn 20s;
-    -o-animation: fadeIn 20s;
-    -ms-animation: fadeIn 20s;
 
-}
 
 .fade-in-image {
     animation: fadeIn 5s;

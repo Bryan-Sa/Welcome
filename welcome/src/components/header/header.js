@@ -4,13 +4,13 @@ const Header = () => {
   return (
     <div className="navbar">
       <div className="myName">
-        <span className="titleName">Welcome</span>
+        <span className="titleName">Bryan SA</span>
       </div>
       <div style={{ width: "100%" }}>
         <div className="menu">
-          <button>Mon parcours</button>
-          <button variant="light">Mes expériences</button>
-          <button variant="light">Télécharger mon CV</button>
+          <button>Playground</button>
+          <button variant="light">API</button>
+          <button variant="light">Curiculum</button>
         </div>
       </div>
     </div>

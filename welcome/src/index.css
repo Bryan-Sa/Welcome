@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "VogueLight";
+  src: local("VogueLight"),
+   url("./fonts/Vogue/vogue-light.ttf") format("truetype");
+  }
