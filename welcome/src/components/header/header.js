@@ -1,14 +1,22 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./header.css"
+import { useNavigate } from "react-router-dom";
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className="navbar">
       <div className="myName">
-        <span className="titleName">Bryan SA</span>
+        <span className="titleName"
+        onClick={(event) => {
+          navigate("/");
+        }}
+        >Bryan SA</span>
       </div>
       <div style={{ width: "100%" }}>
         <div className="menu">
-          <button>Playground</button>
+          <button onClick={(event) => {
+            navigate("/playground");
+          }}>Playground</button>
           <button variant="light">API</button>
           <button variant="light">Curiculum</button>
         </div>

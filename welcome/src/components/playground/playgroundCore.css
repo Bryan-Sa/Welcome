@@ -1,0 +1,81 @@
+.playgroundContainer {
+    width: 98%;
+    margin-top: 6%;
+    text-align: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    padding:10px;
+    border-bottom: 1px solid #E1D9D1;
+    border-top: 1px solid #E1D9D1;
+  }
+
+.playground {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: "VogueLight";
+}
+
+.dogsContainer {
+    margin:auto;
+    width: 70%;
+    margin-top: 2%;
+    text-align: center;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    padding:10px;
+    border-bottom: 1px solid #E1D9D1;
+}
+.imgDogs {
+    width:70%;
+    margin:auto;
+}
+
+.button {
+    
+    padding:15px;
+    background-color:#4169e1;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    font-family: "VogueLight";
+    font-size: 18px;
+}
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

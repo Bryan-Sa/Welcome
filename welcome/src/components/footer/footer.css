@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "VogueLight";
+    src: local("VogueLight"),
+        url("../../fonts/Vogue/vogue-light.ttf") format("truetype");
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    font-family: 'VogueLight';
+    margin-top:3%;
+    height:40vh;
+    color:white;
+    text-align: center;
+}

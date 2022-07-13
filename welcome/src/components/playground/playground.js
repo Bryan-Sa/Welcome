@@ -1,16 +1,16 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Header from "../header/header";
-import Presentation from "../presentation/presentation";
+import Playgroundcore from "./playgroundCore";
 import Footer from "../footer/footer";
-const Home = () => {
+const Playground = () => {
   return (
     <div>
       <Header></Header>
-      <Presentation></Presentation>
+       <Playgroundcore></Playgroundcore>
       <Footer></Footer>
     </div>
   );
 };
 
 
-export default Home;
+export default Playground;

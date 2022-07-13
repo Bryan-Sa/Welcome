@@ -17,6 +17,7 @@
     width: 30%;
     border-right: 1px solid black;
     text-align: right;
+    cursor: pointer;
 }
 
 .titleName {
@@ -40,6 +41,7 @@
 }
 
 .menu button {
+    cursor: pointer;
     margin-right: 10px;
     font-weight: bold;
     font-size:20px;
